@@ -1,0 +1,10 @@
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\MemoryManager.exe.config
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\MemoryManager.exe
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\MemoryManager.pdb
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.csprojAssemblyReference.cache
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.Form1.resources
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.Properties.Resources.resources
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.csproj.GenerateResource.cache
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.csproj.CoreCompileInputs.cache
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.exe
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.pdb
