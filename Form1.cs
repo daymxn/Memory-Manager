@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace MemoryManager
 {
@@ -26,9 +27,10 @@ namespace MemoryManager
         public List<Snapshot> snapshots = new List<Snapshot>();
         public bool safeMode = false; // only keep top 10 in process list to save local memory
         public int snapshotTime = 60;
+        public Snapshot snapshotLoaded;
         public bool enabled = false;
         public bool usageAlerts = false;
-        public bool snapshotManagerOpened = false;
+        public bool expanded = false;
         private bool mouseDown;
         private Point lastLocation;
 
@@ -101,7 +103,34 @@ namespace MemoryManager
         }
         public void OnSnapshotCreaated(object source, Snapshot snapshot)
         {
+            expanded = true; // debuging
             // add snapshot to list and graphs
+            if(snapshotLoaded == null && expanded)
+            {
+                this.CurrentSnapshotChart.Titles.FindByName("title1").Text = snapshot.DateTaken.ToString() + " Snapshot";
+                this.CurrentSnapshotChart.Series.Clear();
+                if(snapshot.ProcessList.Count >= 10)
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        Process currentProcess = snapshot.ProcessList[i];
+                        Series newSeries = new Series();
+                        //add info like ram % and such
+
+                        this.CurrentSnapshotChart.Series.Add(newSeries);
+                    }
+
+                }else
+                {
+                    foreach (Process currentProcess in snapshot.ProcessList)
+                    {
+                        // do the exact same as above, this is for less than 10 active processes
+                    }
+                }
+            }
+
+
+
             if (!enabled)
             {
                 this.enabledCheckBox.Enabled = true;

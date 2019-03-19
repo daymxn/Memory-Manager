@@ -64,7 +64,7 @@
             this.snapshotrateHelpButton = new System.Windows.Forms.Button();
             this.snapshotrateLabel = new System.Windows.Forms.Label();
             this.hourlyusageChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.CurrentSnapshotChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.titleBar.SuspendLayout();
@@ -72,7 +72,7 @@
             this.settingsBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.snapshotrateNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hourlyusageChart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CurrentSnapshotChart)).BeginInit();
             this.SuspendLayout();
             // 
             // titleBar
@@ -326,7 +326,7 @@
             title1.Text = "Hourly Usage";
             this.hourlyusageChart.Titles.Add(title1);
             // 
-            // chart1
+            // CurrentSnapshotChart
             // 
             chartArea2.AxisX.CustomLabels.Add(customLabel2);
             chartArea2.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.False;
@@ -337,12 +337,12 @@
             chartArea2.AxisY.Minimum = 0D;
             chartArea2.AxisY.Title = "RAM % Used";
             chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
+            this.CurrentSnapshotChart.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             legend2.Title = "Top 10 Spenders";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(12, 489);
-            this.chart1.Name = "chart1";
+            this.CurrentSnapshotChart.Legends.Add(legend2);
+            this.CurrentSnapshotChart.Location = new System.Drawing.Point(12, 489);
+            this.CurrentSnapshotChart.Name = "CurrentSnapshotChart";
             series4.ChartArea = "ChartArea1";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
             series4.CustomProperties = "PointWidth=2";
@@ -366,15 +366,15 @@
             series6.Legend = "Legend1";
             series6.Name = "notepad";
             series6.Points.Add(dataPoint6);
-            this.chart1.Series.Add(series4);
-            this.chart1.Series.Add(series5);
-            this.chart1.Series.Add(series6);
-            this.chart1.Size = new System.Drawing.Size(451, 300);
-            this.chart1.TabIndex = 3;
-            this.chart1.Text = "chart1";
+            this.CurrentSnapshotChart.Series.Add(series4);
+            this.CurrentSnapshotChart.Series.Add(series5);
+            this.CurrentSnapshotChart.Series.Add(series6);
+            this.CurrentSnapshotChart.Size = new System.Drawing.Size(451, 300);
+            this.CurrentSnapshotChart.TabIndex = 3;
+            this.CurrentSnapshotChart.Text = "chart1";
             title2.Name = "title1";
             title2.Text = "12/12/2019 24:21:53 Snapshot";
-            this.chart1.Titles.Add(title2);
+            this.CurrentSnapshotChart.Titles.Add(title2);
             // 
             // button1
             // 
@@ -411,7 +411,7 @@
             this.ClientSize = new System.Drawing.Size(479, 838);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.CurrentSnapshotChart);
             this.Controls.Add(this.hourlyusageChart);
             this.Controls.Add(this.settingsBox);
             this.Controls.Add(this.titleBar);
@@ -427,7 +427,7 @@
             this.settingsBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.snapshotrateNumeric)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hourlyusageChart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CurrentSnapshotChart)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -447,7 +447,7 @@
         private System.Windows.Forms.CheckBox usagealertsCheckBox;
         private System.Windows.Forms.Button usagealertsHelpButton;
         private System.Windows.Forms.NumericUpDown snapshotrateNumeric;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart CurrentSnapshotChart;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button safemodeHelpButton;

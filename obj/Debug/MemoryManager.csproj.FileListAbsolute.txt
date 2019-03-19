@@ -8,3 +8,13 @@ C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.csproj.CoreCompileInputs.cache
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.exe
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.pdb
+C:\Users\s1226468\Desktop\Memory-Manager-master\bin\Debug\MemoryManager.exe.config
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.exe
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.pdb
+C:\Users\s1226468\Desktop\Memory-Manager-master\bin\Debug\MemoryManager.exe
+C:\Users\s1226468\Desktop\Memory-Manager-master\bin\Debug\MemoryManager.pdb
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.csprojResolveAssemblyReference.cache
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.Form1.resources
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.Properties.Resources.resources
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.csproj.GenerateResource.Cache
+C:\Users\s1226468\Desktop\Memory-Manager-master\obj\Debug\MemoryManager.SnapshotForm.resources
