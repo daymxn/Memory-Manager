@@ -9,6 +9,7 @@ Simple and clean memory manager for monitoring whats going on behind the scenes 
 * Safe Mode setting to help conserve memory usage
 * Usage alert setting to alert you of any abnormally high usage apps
 * Save/Load snapshots to your local HDD
+* Help buttons with their own unique form- explaining the usage of each setting.
 * Hourly Usage Chart
 * Inspect specific snapshots and their usage
 
