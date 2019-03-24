@@ -22,5 +22,5 @@ Simple and clean memory manager for monitoring whats going on behind the scenes 
 
 # Preview
 
-![alt-text](https://s2.gifyu.com/images/ezgif.com-optimize-13a2589fecc4f5f20.gif)
+![This is where a gif preview of the application would go](Previews/PreviewGif.gif)
 
