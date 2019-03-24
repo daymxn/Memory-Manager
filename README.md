@@ -22,5 +22,5 @@ Simple and clean memory manager for monitoring whats going on behind the scenes 
 
 # Preview
 
-![alt-text](https://i.imgur.com/JDqByV7.gif)
+![alt-text](https://s2.gifyu.com/images/ezgif.com-optimize-13a2589fecc4f5f20.md.gif)
 
