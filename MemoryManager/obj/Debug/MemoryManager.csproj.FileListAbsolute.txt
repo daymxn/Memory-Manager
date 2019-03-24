@@ -23,3 +23,4 @@ C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\Newtonsoft.Js
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.csproj.CopyComplete
+C:\Users\Daymon\source\repos\MemoryManager\MemoryManager\obj\Debug\MemoryManager.HelpForm.resources
